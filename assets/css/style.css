@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/background-1152459_960_720.jpg");
+    background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/05/Free-Images-Simpsons-HD-Wallpapers.jpg");
     text-align: center;
 }
 
@@ -9,6 +9,10 @@ body {
 }
 
 
+img {
+    width: 900px;
+    height: 300px;
+}
 
 
 
@@ -19,6 +23,7 @@ body {
     margin: 5% auto;
     box-sizing: border-box;
     min-height: 80%;
+    font-family: 'Rock Salt', cursive;
 }
 
 #subwrapper {
@@ -35,17 +40,10 @@ button {
     cursor: pointer;
     background: transparent;
     font-size: 42px;
+    font-family: 'Rock Salt', cursive;
     ;
 }
 
-
-h1 {
-    font-family: verdana;
-    font-size: 6.5em;
-    margin-bottom: 50px;
-    font-weight: bold;
-    color: blue;
-}
 
 h2 {
     font-size: 35px;
@@ -68,6 +66,7 @@ h3 {
 }
 
 button:hover {
-    border: 2px solid blue;
-    background: orange;
+    border: 2px solid red;
+    background: #FFF17A;
+    font-family: 'Rock Salt', cursive;
 }
